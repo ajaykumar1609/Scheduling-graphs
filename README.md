@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Scheduling Graph
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Scheduling Graph is a web application that displays a graph of the number of schedules created over time, as well as the details of the schedules created on a particular day.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+### Prerequisites
 
-### `npm start`
+To run this application, you will need to have Node.js and npm installed on your system.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Installing
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository to your local machine. ---> 
+git clone https://github.com/your-username/scheduling-graphs.git
 
-### `npm test`
+2. Navigate to the project directory. --->
+cd scheduling-graph
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Install the dependencies. --->
+npm install
 
-### `npm run build`
+### Running
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To start the development server, run the following command: --->
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The application will be available at `http://localhost:3000`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Building
 
-### `npm run eject`
+To create a production build of the application, run the following command. --->
+npm run build
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The production build will be created in the `build` directory.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Selecting a Date
 
-## Learn More
+To view the schedules created on a particular date, use the date selector in the top right corner of the page. Click on a date in the calendar to view the schedules created on that date.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Viewing the Graph
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The graph shows the number of schedules created over time. Hover over a point on the graph to view the exact number of schedules created at that time.
 
-### Code Splitting
+### Viewing the Schedule Details
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To view the details of the schedules created on a particular date, click on the bar in the graph that represents that date. The details will be displayed in a table below the graph.
 
-### Analyzing the Bundle Size
+## Built With
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* [React](https://reactjs.org/) - The web framework used
+* [Recharts](http://recharts.org/en-US/) - The charting library used
+* [date-fns](https://date-fns.org/) - The date utility library used
