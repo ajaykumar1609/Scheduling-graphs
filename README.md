@@ -9,8 +9,8 @@ This is a React app that displays a bar graph of scheduled appointments and allo
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/schedule-graph-app.git`
-2. Install the dependencies: `cd schedule-graph-app && npm install`
+1. Clone the repository: `git clone https://github.com/your-username/schedule-graphs.git`
+2. Install the dependencies: `cd schedule-graphs && npm install`
 
 ## Usage
 
