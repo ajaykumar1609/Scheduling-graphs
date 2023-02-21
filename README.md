@@ -1,40 +1,26 @@
-# Scheduling Graph
+# Schedule Graph App
 
-Scheduling Graph is a web application that displays a graph of the number of schedules created over time, as well as the details of the schedules created on a particular day.
+This is a React app that displays a bar graph of scheduled appointments and allows users to select a specific date to view a table of appointment details for that date. The app is built with React, Recharts, and date-fns.
 
-## Getting Started
+## Table of Contents
 
-### Prerequisites
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
-To run this application, you will need to have Node.js and npm installed on your system.
+## Installation
 
-### Installing
-
-1. Clone the repository to your local machine. ---> 
-git clone https://github.com/your-username/scheduling-graphs.git
-
-2. Navigate to the project directory. --->
-cd scheduling-graph
-
-3. Install the dependencies. --->
-npm install
-
-### Running
-
-To start the development server, run the following command: --->
-npm start
-
-The application will be available at `http://localhost:3000`.
-
-### Building
-
-To create a production build of the application, run the following command. --->
-npm run build
-
-
-The production build will be created in the `build` directory.
+1. Clone the repository: `git clone https://github.com/your-username/schedule-graph-app.git`
+2. Install the dependencies: `cd schedule-graph-app && npm install`
 
 ## Usage
+
+1. Run the app: `npm start`
+2. Open the app in a web browser: `http://localhost:3000`
+
+## Contributing
+
+Contributions are welcome! Please create a pull request with your changes.
 
 ### Selecting a Date
 
