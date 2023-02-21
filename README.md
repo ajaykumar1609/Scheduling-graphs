@@ -6,7 +6,6 @@ This is a React app that displays a bar graph of scheduled appointments and allo
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 
 ## Installation
 
@@ -17,11 +16,6 @@ This is a React app that displays a bar graph of scheduled appointments and allo
 
 1. Run the app: `npm start`
 2. Open the app in a web browser: `http://localhost:3000`
-
-## Contributing
-
-Contributions are welcome! Please create a pull request with your changes.
-
 ### Selecting a Date
 
 To view the schedules created on a particular date, use the date selector in the top right corner of the page. Click on a date in the calendar to view the schedules created on that date.
