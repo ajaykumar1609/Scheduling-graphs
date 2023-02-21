@@ -1,6 +1,6 @@
 # Schedule Graph App
 
-This is a React app that displays a bar graph of scheduled appointments and allows users to select a specific date to view a table of appointment details for that date. The app is built with React, Recharts, and date-fns.
+This is a React app that displays a bar graph of scheduled appointments and allows users to select a specific date to view a table of appointment details for that date. The app is built with React, Recharts, and date-fns. If you wanna view the deployed version then [click here](https://scheduling-graph.netlify.app/)
 
 ## Table of Contents
 
